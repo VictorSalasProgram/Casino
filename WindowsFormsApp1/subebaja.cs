@@ -425,38 +425,50 @@ namespace WindowsFormsApp1
 
         private void btn_retirar_Click(object sender, EventArgs e)
         {
-            activarRetirar(false);
-            
-            if (contador >=2 && contador <5 ) {
-                creditos = creditos + (pozo * 2);
-                pozo = 0;
-                contador = 0;
-                lbl_multiplicador.Text = "";
-                actualizarCreditos();
-                actualizarPozo();
-            } else if (contador >= 5 && contador < 10) {
-                creditos = creditos + (pozo * 3);
-                    pozo = 0;
-                contador = 0;
-                lbl_multiplicador.Text = "";
-                actualizarCreditos();
-                actualizarPozo();
-            } else if (contador >=10) {
-                creditos = creditos + (pozo * 10);
-                pozo = 0;
-                contador = 0;
-                actualizarCreditos();
-                actualizarPozo();
-            }
-            else
+            DialogResult Opcion;
+            Opcion = MessageBox.Show("¿Seguro que deseas retirar los creditos?", "AVISO DEL SISTEMA", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (Opcion == DialogResult.Yes)
             {
-                creditos = creditos + pozo;
-                pozo = 0;
-                contador = 0;
-                lbl_multiplicador.Text = "";
-                actualizarCreditos();
-                actualizarPozo();
+                activarRetirar(false);
+
+                if (contador >= 2 && contador < 5)
+                {
+                    creditos = creditos + (pozo * 2);
+                    pozo = 0;
+                    contador = 0;
+                    lbl_multiplicador.Text = "";
+                    actualizarCreditos();
+                    actualizarPozo();
+                }
+                else if (contador >= 5 && contador < 10)
+                {
+                    creditos = creditos + (pozo * 3);
+                    pozo = 0;
+                    contador = 0;
+                    lbl_multiplicador.Text = "";
+                    actualizarCreditos();
+                    actualizarPozo();
+                }
+                else if (contador >= 10)
+                {
+                    creditos = creditos + (pozo * 10);
+                    pozo = 0;
+                    contador = 0;
+                    actualizarCreditos();
+                    actualizarPozo();
+                }
+                else
+                {
+                    creditos = creditos + pozo;
+                    pozo = 0;
+                    contador = 0;
+                    lbl_multiplicador.Text = "";
+                    actualizarCreditos();
+                    actualizarPozo();
+                }
+            } else {
             }
+  
         }
     }  
     
