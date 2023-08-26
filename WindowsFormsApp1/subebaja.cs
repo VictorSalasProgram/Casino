@@ -37,7 +37,9 @@ namespace WindowsFormsApp1
                     actualizarPozo();
                     actualizarCreditos();
                 }
-                else { 
+                else if(Convert.ToInt32(txt_pozo.Text) == 0) {
+                    btn_retirar.Enabled = false;
+                     
             }
                 
                 actualizarPozo();
