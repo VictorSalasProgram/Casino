@@ -569,27 +569,31 @@ namespace WindowsFormsApp1
         }
         private void btn_irte_Click(object sender, EventArgs e)
         {
-            
+
             //               VALIDAR CON IF  Y CUADRO DE DIALOGO !!!!!!!!!!!!!
+
+            DialogResult Rpt = MessageBox.Show("Seguro que desea irse? \n Perdera todos los creditos", "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning); 
+            if (Rpt == DialogResult.Yes)
+            {
+                txt_numero.Clear();
+                txt_pica.Clear();
+                txt_pozo.Clear();
+                btn_generar.Enabled = true;
+                pnl_acciones.Enabled = false;
+                actualizarCreditos();
+                pozo = 0;
+                pcb_carta1.Image = null;
+                pcb_carta2.Image = null;
+                pcb_carta3.Image = null;
+                pcb_carta4.Image = null;
+                txt_acumulado.Clear();
+                numeroValor2 = 0;
+                numeroValor3 = 0;
+                numeroValor4 = 0;
+                suma = 0;
+            } 
             
-            
-            
-            txt_numero.Clear(); 
-            txt_pica.Clear();
-            txt_pozo.Clear();
-            btn_generar.Enabled = true;
-            pnl_acciones.Enabled=false;
-            actualizarCreditos();
-            pozo = 0;
-            pcb_carta1.Image = null; 
-            pcb_carta2.Image = null;
-            pcb_carta3.Image = null;
-            pcb_carta4.Image = null;
-            txt_acumulado.Clear();
-            numeroValor2 = 0;   
-            numeroValor3 = 0;   
-            numeroValor4 = 0;   
-            suma = 0;   
+        
                 
                 }
 
