@@ -69,6 +69,7 @@
             this.btn_nicio.TabIndex = 0;
             this.btn_nicio.Text = "Inicio";
             this.btn_nicio.UseVisualStyleBackColor = false;
+            this.btn_nicio.Click += new System.EventHandler(this.btn_nicio_Click);
             // 
             // btn_regristros
             // 

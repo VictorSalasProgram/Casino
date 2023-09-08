@@ -47,5 +47,13 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btn_nicio_Click(object sender, EventArgs e)
+        {
+            Bienvenida Control = new Bienvenida();  
+            pnl_principal.Controls.Clear();
+            Control.Dock = DockStyle.Fill;
+            pnl_principal.Controls.Add(Control);
+        }
     }
 }
