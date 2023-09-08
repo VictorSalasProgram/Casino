@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_ = new System.Windows.Forms.Button();
+            this.btn_nicio = new System.Windows.Forms.Button();
             this.btn_regristros = new System.Windows.Forms.Button();
             this.btn_numeroA = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_ruleta = new System.Windows.Forms.Button();
             this.pnl_principal = new System.Windows.Forms.Panel();
             this.panel_header = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,31 +44,31 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(2)))), ((int)(((byte)(5)))));
-            this.flowLayoutPanel1.Controls.Add(this.btn_);
+            this.flowLayoutPanel1.Controls.Add(this.btn_nicio);
             this.flowLayoutPanel1.Controls.Add(this.btn_regristros);
             this.flowLayoutPanel1.Controls.Add(this.btn_numeroA);
             this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Controls.Add(this.button5);
+            this.flowLayoutPanel1.Controls.Add(this.btn_ruleta);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 117);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(234, 770);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // btn_
+            // btn_nicio
             // 
-            this.btn_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
-            this.btn_.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(108)))), ((int)(((byte)(104)))));
-            this.btn_.FlatAppearance.BorderSize = 7;
-            this.btn_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(80)))));
-            this.btn_.Location = new System.Drawing.Point(3, 3);
-            this.btn_.Name = "btn_";
-            this.btn_.Size = new System.Drawing.Size(231, 110);
-            this.btn_.TabIndex = 0;
-            this.btn_.Text = "button1";
-            this.btn_.UseVisualStyleBackColor = false;
+            this.btn_nicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
+            this.btn_nicio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(108)))), ((int)(((byte)(104)))));
+            this.btn_nicio.FlatAppearance.BorderSize = 7;
+            this.btn_nicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_nicio.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_nicio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(80)))));
+            this.btn_nicio.Location = new System.Drawing.Point(3, 3);
+            this.btn_nicio.Name = "btn_nicio";
+            this.btn_nicio.Size = new System.Drawing.Size(231, 110);
+            this.btn_nicio.TabIndex = 0;
+            this.btn_nicio.Text = "Inicio";
+            this.btn_nicio.UseVisualStyleBackColor = false;
             // 
             // btn_regristros
             // 
@@ -118,20 +118,20 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btn_ruleta
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(108)))), ((int)(((byte)(104)))));
-            this.button5.FlatAppearance.BorderSize = 7;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(80)))));
-            this.button5.Location = new System.Drawing.Point(3, 467);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(231, 110);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_ruleta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(4)))), ((int)(((byte)(15)))));
+            this.btn_ruleta.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(108)))), ((int)(((byte)(104)))));
+            this.btn_ruleta.FlatAppearance.BorderSize = 7;
+            this.btn_ruleta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ruleta.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ruleta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(80)))));
+            this.btn_ruleta.Location = new System.Drawing.Point(3, 467);
+            this.btn_ruleta.Name = "btn_ruleta";
+            this.btn_ruleta.Size = new System.Drawing.Size(231, 110);
+            this.btn_ruleta.TabIndex = 4;
+            this.btn_ruleta.Text = "Ruleta";
+            this.btn_ruleta.UseVisualStyleBackColor = false;
             // 
             // pnl_principal
             // 
@@ -185,11 +185,11 @@
         #endregion
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button btn_;
+        private System.Windows.Forms.Button btn_nicio;
         private System.Windows.Forms.Button btn_regristros;
         private System.Windows.Forms.Button btn_numeroA;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_ruleta;
         private System.Windows.Forms.Panel pnl_principal;
         private System.Windows.Forms.Panel panel_header;
         private System.Windows.Forms.Label label1;
