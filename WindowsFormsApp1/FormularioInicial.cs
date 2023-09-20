@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApp1
 {
     public partial class FormularioInicial : Form
@@ -15,6 +16,7 @@ namespace WindowsFormsApp1
         public FormularioInicial()
         {
             InitializeComponent();
+
         }
 
         private void btn_regristros_Click(object sender, EventArgs e)
@@ -36,7 +38,10 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-           subebaja Control = new subebaja();
+
+            
+           
+            subebaja Control = new subebaja();
             pnl_principal.Controls.Clear();
             Control.Dock = DockStyle.Fill;
             pnl_principal.Controls.Add(Control);

@@ -32,8 +32,11 @@ namespace WindowsFormsApp1
         int numeroValor4 = 0;
         int[] arraySuma = new int[4];
         int suma = 0;
-       
+
         // VARIABLES
+        #region "NUMEROS"
+        int[] num = { 11, 56, 34, 63, 51 };
+        #endregion
         private void btn_generar_Click(object sender, EventArgs e)
         {
            
@@ -570,7 +573,6 @@ namespace WindowsFormsApp1
         private void btn_irte_Click(object sender, EventArgs e)
         {
 
-            //               VALIDAR CON IF  Y CUADRO DE DIALOGO !!!!!!!!!!!!!
 
             DialogResult Rpt = MessageBox.Show("Seguro que desea irse? \n Perdera todos los creditos", "Confirmacion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning); 
             if (Rpt == DialogResult.Yes)

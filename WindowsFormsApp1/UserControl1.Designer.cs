@@ -412,7 +412,6 @@
         private System.Windows.Forms.Button btn_apuestaC;
         private System.Windows.Forms.Button btn_quedarse;
         private System.Windows.Forms.Label lbl_pica;
-        private System.Windows.Forms.PictureBox pcb_carta1;
         private System.Windows.Forms.PictureBox pcb_carta2;
         private System.Windows.Forms.TextBox txt_acumulado;
         private System.Windows.Forms.Label lbl_acumulado;
@@ -421,5 +420,6 @@
         private System.Windows.Forms.Button btn_recarga;
         private System.Windows.Forms.PictureBox pcb_carta3;
         private System.Windows.Forms.PictureBox pcb_carta4;
+        public System.Windows.Forms.PictureBox pcb_carta1;
     }
 }
