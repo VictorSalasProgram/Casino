@@ -77,8 +77,18 @@ namespace WindowsFormsApp1
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmb_numero_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+            if (cmb_numero.SelectedIndex == 0)
+            {
+                cmb_color.Enabled = true;
+            }
+            else if (cmb_numero.SelectedIndex != 0) 
+            {
+                cmb_color.Enabled = false;
+                cmb_color.SelectedIndex = 0;    
+            }
 
         }
 
@@ -93,6 +103,11 @@ namespace WindowsFormsApp1
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmb_color_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

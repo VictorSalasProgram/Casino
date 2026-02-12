@@ -157,6 +157,7 @@
             this.cmb_numero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_numero.FormattingEnabled = true;
             this.cmb_numero.Items.AddRange(new object[] {
+            "-",
             "0",
             "1",
             "2",
@@ -198,7 +199,7 @@
             this.cmb_numero.Name = "cmb_numero";
             this.cmb_numero.Size = new System.Drawing.Size(121, 37);
             this.cmb_numero.TabIndex = 15;
-            this.cmb_numero.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cmb_numero.SelectedIndexChanged += new System.EventHandler(this.cmb_numero_SelectedIndexChanged);
             // 
             // btn_apostar
             // 
@@ -218,47 +219,14 @@
             this.cmb_color.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_color.FormattingEnabled = true;
             this.cmb_color.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36"});
+            "-",
+            "ROJO",
+            "NEGRO"});
             this.cmb_color.Location = new System.Drawing.Point(1731, 662);
             this.cmb_color.Name = "cmb_color";
             this.cmb_color.Size = new System.Drawing.Size(121, 37);
             this.cmb_color.TabIndex = 17;
+            this.cmb_color.SelectedIndexChanged += new System.EventHandler(this.cmb_color_SelectedIndexChanged);
             // 
             // btn_cambiar_apuesta
             // 
