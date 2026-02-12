@@ -77,17 +77,16 @@
             "Sube",
             "Baja",
             "Iguala"});
-            this.cb_subebaja.Location = new System.Drawing.Point(498, 462);
+            this.cb_subebaja.Location = new System.Drawing.Point(565, 427);
             this.cb_subebaja.Name = "cb_subebaja";
             this.cb_subebaja.Size = new System.Drawing.Size(162, 35);
             this.cb_subebaja.TabIndex = 15;
-            
             // 
             // label_pozo
             // 
             this.label_pozo.AutoSize = true;
             this.label_pozo.ForeColor = System.Drawing.Color.White;
-            this.label_pozo.Location = new System.Drawing.Point(549, 13);
+            this.label_pozo.Location = new System.Drawing.Point(616, 13);
             this.label_pozo.Name = "label_pozo";
             this.label_pozo.Size = new System.Drawing.Size(50, 22);
             this.label_pozo.TabIndex = 18;
@@ -99,7 +98,7 @@
             this.txt_pozo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_pozo.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_pozo.ForeColor = System.Drawing.Color.Yellow;
-            this.txt_pozo.Location = new System.Drawing.Point(457, 43);
+            this.txt_pozo.Location = new System.Drawing.Point(524, 43);
             this.txt_pozo.Name = "txt_pozo";
             this.txt_pozo.ReadOnly = true;
             this.txt_pozo.Size = new System.Drawing.Size(237, 36);
@@ -110,7 +109,7 @@
             // 
             this.lbl_creditos.AutoSize = true;
             this.lbl_creditos.ForeColor = System.Drawing.Color.White;
-            this.lbl_creditos.Location = new System.Drawing.Point(517, 553);
+            this.lbl_creditos.Location = new System.Drawing.Point(584, 518);
             this.lbl_creditos.Name = "lbl_creditos";
             this.lbl_creditos.Size = new System.Drawing.Size(90, 22);
             this.lbl_creditos.TabIndex = 21;
@@ -122,7 +121,7 @@
             this.txt_creditos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_creditos.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_creditos.ForeColor = System.Drawing.Color.Yellow;
-            this.txt_creditos.Location = new System.Drawing.Point(451, 583);
+            this.txt_creditos.Location = new System.Drawing.Point(518, 548);
             this.txt_creditos.Name = "txt_creditos";
             this.txt_creditos.ReadOnly = true;
             this.txt_creditos.Size = new System.Drawing.Size(243, 32);
@@ -131,7 +130,7 @@
             // 
             // txt_valor2
             // 
-            this.txt_valor2.Location = new System.Drawing.Point(145, 320);
+            this.txt_valor2.Location = new System.Drawing.Point(212, 320);
             this.txt_valor2.Name = "txt_valor2";
             this.txt_valor2.Size = new System.Drawing.Size(126, 29);
             this.txt_valor2.TabIndex = 23;
@@ -139,7 +138,7 @@
             // 
             // txt_pica2
             // 
-            this.txt_pica2.Location = new System.Drawing.Point(145, 385);
+            this.txt_pica2.Location = new System.Drawing.Point(212, 385);
             this.txt_pica2.Name = "txt_pica2";
             this.txt_pica2.Size = new System.Drawing.Size(126, 29);
             this.txt_pica2.TabIndex = 24;
@@ -150,7 +149,7 @@
             this.lbl_estado.AutoSize = true;
             this.lbl_estado.Font = new System.Drawing.Font("Consolas", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_estado.ForeColor = System.Drawing.Color.Yellow;
-            this.lbl_estado.Location = new System.Drawing.Point(504, 400);
+            this.lbl_estado.Location = new System.Drawing.Point(571, 365);
             this.lbl_estado.Name = "lbl_estado";
             this.lbl_estado.Size = new System.Drawing.Size(0, 43);
             this.lbl_estado.TabIndex = 25;
@@ -160,7 +159,7 @@
             this.lbl_multiplicador.AutoSize = true;
             this.lbl_multiplicador.Font = new System.Drawing.Font("Consolas", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_multiplicador.ForeColor = System.Drawing.Color.Yellow;
-            this.lbl_multiplicador.Location = new System.Drawing.Point(700, 39);
+            this.lbl_multiplicador.Location = new System.Drawing.Point(767, 39);
             this.lbl_multiplicador.Name = "lbl_multiplicador";
             this.lbl_multiplicador.Size = new System.Drawing.Size(35, 38);
             this.lbl_multiplicador.TabIndex = 27;
@@ -176,7 +175,7 @@
             this.btn_generar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_generar.ForeColor = System.Drawing.Color.White;
             this.btn_generar.Image = global::WindowsFormsApp1.Properties.Resources.carta_nueva;
-            this.btn_generar.Location = new System.Drawing.Point(1045, 532);
+            this.btn_generar.Location = new System.Drawing.Point(1112, 497);
             this.btn_generar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_generar.Name = "btn_generar";
             this.btn_generar.Size = new System.Drawing.Size(97, 115);
@@ -194,7 +193,7 @@
             this.btn_retirar.FlatAppearance.BorderSize = 0;
             this.btn_retirar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_retirar.Image = global::WindowsFormsApp1.Properties.Resources.retirar;
-            this.btn_retirar.Location = new System.Drawing.Point(756, 23);
+            this.btn_retirar.Location = new System.Drawing.Point(823, 23);
             this.btn_retirar.Name = "btn_retirar";
             this.btn_retirar.Size = new System.Drawing.Size(93, 80);
             this.btn_retirar.TabIndex = 28;
@@ -210,7 +209,7 @@
             this.btn_volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_volver.ForeColor = System.Drawing.Color.Black;
             this.btn_volver.Image = global::WindowsFormsApp1.Properties.Resources.volver;
-            this.btn_volver.Location = new System.Drawing.Point(1150, 574);
+            this.btn_volver.Location = new System.Drawing.Point(1217, 539);
             this.btn_volver.Margin = new System.Windows.Forms.Padding(4);
             this.btn_volver.Name = "btn_volver";
             this.btn_volver.Size = new System.Drawing.Size(65, 73);
@@ -225,7 +224,7 @@
             this.btn_recarga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_recarga.ForeColor = System.Drawing.Color.BlanchedAlmond;
             this.btn_recarga.Image = global::WindowsFormsApp1.Properties.Resources.recarga_express;
-            this.btn_recarga.Location = new System.Drawing.Point(391, 574);
+            this.btn_recarga.Location = new System.Drawing.Point(458, 539);
             this.btn_recarga.Name = "btn_recarga";
             this.btn_recarga.Size = new System.Drawing.Size(54, 51);
             this.btn_recarga.TabIndex = 20;
@@ -236,7 +235,7 @@
             // 
             // pb_carta1
             // 
-            this.pb_carta1.Location = new System.Drawing.Point(497, 134);
+            this.pb_carta1.Location = new System.Drawing.Point(564, 134);
             this.pb_carta1.Margin = new System.Windows.Forms.Padding(4);
             this.pb_carta1.Name = "pb_carta1";
             this.pb_carta1.Size = new System.Drawing.Size(163, 251);
@@ -246,7 +245,7 @@
             // 
             // pb_carta2
             // 
-            this.pb_carta2.Location = new System.Drawing.Point(243, 40);
+            this.pb_carta2.Location = new System.Drawing.Point(310, 40);
             this.pb_carta2.Margin = new System.Windows.Forms.Padding(4);
             this.pb_carta2.Name = "pb_carta2";
             this.pb_carta2.Size = new System.Drawing.Size(163, 251);

@@ -473,6 +473,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_02_11_212316 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-02-11 212316", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_02_11_214604 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-02-11 214604", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap carta_nueva {
             get {
                 object obj = ResourceManager.GetObject("carta_nueva", resourceCulture);
@@ -486,6 +506,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap irte {
             get {
                 object obj = ResourceManager.GetObject("irte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1302081609_2048x2048 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1302081609-2048x2048", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -676,6 +706,26 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap retirar {
             get {
                 object obj = ResourceManager.GetObject("retirar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap standard_roulette {
+            get {
+                object obj = ResourceManager.GetObject("standard_roulette", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap standard_roulette1 {
+            get {
+                object obj = ResourceManager.GetObject("standard_roulette1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

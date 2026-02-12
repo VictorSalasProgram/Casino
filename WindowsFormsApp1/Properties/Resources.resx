@@ -118,74 +118,80 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="_6_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="q_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="all_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\all_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_5_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="k_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\k trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="a_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_5_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="quedarse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quedarse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="q_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="j_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\j pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="moneda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\moneda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_8_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_10_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_9_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_8_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_4_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_3_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_7_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="q_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="j_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_10_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_4_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="k_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\k diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_10_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="k_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta_nueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta_nueva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="standard_roulette1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\standard_roulette1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pedir_carta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pedir_carta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="q_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="otra_carta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\otra_carta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="A_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\A trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,92 +199,53 @@
   <data name="_6_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_10_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_3_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="retirar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retirar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pedir_carta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pedir_carta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="quedarse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quedarse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_3_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="q_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="otra_carta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\otra_carta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="a_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_9_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_5_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_3_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_6_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_9_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_8_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_8_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\8 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_4_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_4_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="k_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\k pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="irte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\irte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="k_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\k corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_9_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="j_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\j corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="J_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\J trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_6_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_7_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="q_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\q trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_5_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_7_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="J_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="moneda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\moneda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="standard_roulette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\standard_roulette.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_7_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_5_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_7_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="irte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\irte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_3_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="j_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="all_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_3_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,25 +253,73 @@
   <data name="q_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_10_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2026-02-11 212316" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-02-11 212316.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moneda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moneda1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_4_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_7_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="recarga_express" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recarga_express.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_10_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="k_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_trebol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 trebol.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moneda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moneda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_corazon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 corazon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1302081609-2048x2048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1302081609-2048x2048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_diamante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 diamante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="carta_nueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\carta_nueva.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_9_pica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 pica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="retirar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\retirar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2026-02-11 214604" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-02-11 214604.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

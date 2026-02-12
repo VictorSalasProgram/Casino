@@ -60,5 +60,19 @@ namespace WindowsFormsApp1
             Control.Dock = DockStyle.Fill;
             pnl_principal.Controls.Add(Control);
         }
+
+        private void btn_ruleta_Click(object sender, EventArgs e)
+        {
+            Ruleta control = new Ruleta();
+            pnl_principal.Controls.Clear();
+            // Centrar el control dentro del panel
+            control.Location = new Point(
+                (pnl_principal.Width - control.Width) / 2,
+                (pnl_principal.Height - control.Height) / 2
+            );
+            // Asegúrate de que el control no esté acoplado
+            control.Dock = DockStyle.Fill;
+            pnl_principal.Controls.Add(control);
+        }
     }
 }

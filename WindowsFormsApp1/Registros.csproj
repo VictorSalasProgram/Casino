@@ -66,6 +66,12 @@
     <Compile Include="Registros.Designer.cs">
       <DependentUpon>Registros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ruleta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ruleta.Designer.cs">
+      <DependentUpon>Ruleta.cs</DependentUpon>
+    </Compile>
     <Compile Include="subebaja.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
     <EmbeddedResource Include="Registros.resx">
       <DependentUpon>Registros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ruleta.resx">
+      <DependentUpon>Ruleta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="subebaja.resx">
       <DependentUpon>subebaja.cs</DependentUpon>
@@ -319,6 +328,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\carta_nueva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standard_roulette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standard_roulette1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1302081609-2048x2048.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-02-11 212316.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-02-11 214604.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

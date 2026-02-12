@@ -133,14 +133,15 @@
             this.btn_ruleta.TabIndex = 4;
             this.btn_ruleta.Text = "Ruleta";
             this.btn_ruleta.UseVisualStyleBackColor = false;
+            this.btn_ruleta.Click += new System.EventHandler(this.btn_ruleta_Click);
             // 
             // pnl_principal
             // 
-            this.pnl_principal.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnl_principal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_principal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(205)))), ((int)(((byte)(80)))));
-            this.pnl_principal.Location = new System.Drawing.Point(3, 117);
+            this.pnl_principal.Location = new System.Drawing.Point(0, 117);
             this.pnl_principal.Name = "pnl_principal";
-            this.pnl_principal.Size = new System.Drawing.Size(1921, 770);
+            this.pnl_principal.Size = new System.Drawing.Size(1924, 770);
             this.pnl_principal.TabIndex = 1;
             this.pnl_principal.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_principal_Paint);
             // 
