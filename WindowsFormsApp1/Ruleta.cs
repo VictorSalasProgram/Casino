@@ -80,21 +80,38 @@ namespace WindowsFormsApp1
         private void cmb_numero_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            if (cmb_numero.SelectedIndex == 0)
+            if (cmb_numero.SelectedIndex == 0 & cmb_color.SelectedIndex == 0 & cmb_par.SelectedIndex ==0)
             {
                 cmb_color.Enabled = true;
+                cmb_par.Enabled = true;
             }
-            else if (cmb_numero.SelectedIndex != 0) 
+            else if (cmb_numero.SelectedIndex != 0)
             {
+                cmb_par.Enabled = false;
                 cmb_color.Enabled = false;
-                cmb_color.SelectedIndex = 0;    
+
+                cmb_color.SelectedIndex = 0;
+                cmb_par.SelectedIndex = 0;
             }
 
         }
 
         private void btn_apostar_Click(object sender, EventArgs e)
         {
+            if (cmb_numero.SelectedIndex != 0)
+            {
+                int index_numero = cmb_numero.SelectedIndex - 1;
+                lbl_apostado.Text = index_numero.ToString();
+                lbl_apostado.Visible = true;
+                lbl_apuesta.Visible = true;
+            }
+            if (cmb_color.SelectedIndex != 0)
+            {
 
+                lbl_apostado.Text = cmb_color.Text;
+                lbl_apostado.Visible = true;
+                lbl_apuesta.Visible = true;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -109,7 +126,43 @@ namespace WindowsFormsApp1
 
         private void cmb_color_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (cmb_color.SelectedIndex == 0 & cmb_numero.SelectedIndex == 0 & cmb_par.SelectedIndex ==0)
+            {
+                cmb_numero.Enabled = true;
+                cmb_par.Enabled = true;
+            }
+            else if (cmb_color.SelectedIndex != 0)
+            {
+                cmb_numero.Enabled = false;
+                cmb_par.Enabled = false;
+                cmb_numero.SelectedIndex = 0;
+                cmb_par.SelectedIndex = 0;
+            }
 
+        }
+
+        private void btn_retirarse_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmb_par_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmb_par.SelectedIndex != 0)
+            {
+                cmb_color.Enabled = false;
+                cmb_numero.Enabled = false;
+                cmb_color.SelectedIndex = 0;
+                cmb_numero.SelectedIndex = 0;
+
+
+            }
+            else if (cmb_par.SelectedIndex == 0 & cmb_color.SelectedIndex == 0 & cmb_numero.SelectedIndex == 0)
+            {
+                cmb_color.Enabled = true;
+                cmb_numero.Enabled = true;
+                cmb_par.Enabled = true;
+            }
         }
     }
 }

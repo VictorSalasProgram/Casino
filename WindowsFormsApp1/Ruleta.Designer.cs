@@ -41,6 +41,10 @@
             this.btn_apostar = new System.Windows.Forms.Button();
             this.cmb_color = new System.Windows.Forms.ComboBox();
             this.btn_cambiar_apuesta = new System.Windows.Forms.Button();
+            this.cmb_par = new System.Windows.Forms.ComboBox();
+            this.btn_retirarse = new System.Windows.Forms.Button();
+            this.lbl_apuesta = new System.Windows.Forms.Label();
+            this.lbl_apostado = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -144,9 +148,9 @@
             this.btn_girar.BackColor = System.Drawing.Color.Black;
             this.btn_girar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_girar.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btn_girar.Location = new System.Drawing.Point(1666, 797);
+            this.btn_girar.Location = new System.Drawing.Point(1785, 799);
             this.btn_girar.Name = "btn_girar";
-            this.btn_girar.Size = new System.Drawing.Size(217, 54);
+            this.btn_girar.Size = new System.Drawing.Size(172, 54);
             this.btn_girar.TabIndex = 14;
             this.btn_girar.Text = "GIRAR";
             this.btn_girar.UseVisualStyleBackColor = false;
@@ -195,9 +199,9 @@
             "34",
             "35",
             "36"});
-            this.cmb_numero.Location = new System.Drawing.Point(1731, 605);
+            this.cmb_numero.Location = new System.Drawing.Point(1598, 662);
             this.cmb_numero.Name = "cmb_numero";
-            this.cmb_numero.Size = new System.Drawing.Size(121, 37);
+            this.cmb_numero.Size = new System.Drawing.Size(98, 37);
             this.cmb_numero.TabIndex = 15;
             this.cmb_numero.SelectedIndexChanged += new System.EventHandler(this.cmb_numero_SelectedIndexChanged);
             // 
@@ -224,7 +228,7 @@
             "NEGRO"});
             this.cmb_color.Location = new System.Drawing.Point(1731, 662);
             this.cmb_color.Name = "cmb_color";
-            this.cmb_color.Size = new System.Drawing.Size(121, 37);
+            this.cmb_color.Size = new System.Drawing.Size(98, 37);
             this.cmb_color.TabIndex = 17;
             this.cmb_color.SelectedIndexChanged += new System.EventHandler(this.cmb_color_SelectedIndexChanged);
             // 
@@ -241,11 +245,66 @@
             this.btn_cambiar_apuesta.UseVisualStyleBackColor = false;
             this.btn_cambiar_apuesta.Click += new System.EventHandler(this.button1_Click);
             // 
+            // cmb_par
+            // 
+            this.cmb_par.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_par.FormattingEnabled = true;
+            this.cmb_par.Items.AddRange(new object[] {
+            "-",
+            "PAR ",
+            "IMPAR"});
+            this.cmb_par.Location = new System.Drawing.Point(1859, 662);
+            this.cmb_par.Name = "cmb_par";
+            this.cmb_par.Size = new System.Drawing.Size(98, 37);
+            this.cmb_par.TabIndex = 19;
+            this.cmb_par.SelectedIndexChanged += new System.EventHandler(this.cmb_par_SelectedIndexChanged);
+            // 
+            // btn_retirarse
+            // 
+            this.btn_retirarse.BackColor = System.Drawing.Color.Black;
+            this.btn_retirarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_retirarse.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_retirarse.Location = new System.Drawing.Point(1598, 797);
+            this.btn_retirarse.Name = "btn_retirarse";
+            this.btn_retirarse.Size = new System.Drawing.Size(171, 54);
+            this.btn_retirarse.TabIndex = 20;
+            this.btn_retirarse.Text = "RETIRAR";
+            this.btn_retirarse.UseVisualStyleBackColor = false;
+            this.btn_retirarse.Click += new System.EventHandler(this.btn_retirarse_Click);
+            // 
+            // lbl_apuesta
+            // 
+            this.lbl_apuesta.AutoSize = true;
+            this.lbl_apuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_apuesta.ForeColor = System.Drawing.Color.Gold;
+            this.lbl_apuesta.Location = new System.Drawing.Point(1620, 506);
+            this.lbl_apuesta.Name = "lbl_apuesta";
+            this.lbl_apuesta.Size = new System.Drawing.Size(309, 38);
+            this.lbl_apuesta.TabIndex = 21;
+            this.lbl_apuesta.Text = "HAS APOSTADO A";
+            this.lbl_apuesta.Visible = false;
+            // 
+            // lbl_apostado
+            // 
+            this.lbl_apostado.AutoSize = true;
+            this.lbl_apostado.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_apostado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl_apostado.Location = new System.Drawing.Point(1762, 561);
+            this.lbl_apostado.Name = "lbl_apostado";
+            this.lbl_apostado.Size = new System.Drawing.Size(30, 42);
+            this.lbl_apostado.TabIndex = 22;
+            this.lbl_apostado.Text = "-";
+            this.lbl_apostado.Visible = false;
+            // 
             // Ruleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(99)))), ((int)(((byte)(24)))));
+            this.Controls.Add(this.lbl_apostado);
+            this.Controls.Add(this.lbl_apuesta);
+            this.Controls.Add(this.btn_retirarse);
+            this.Controls.Add(this.cmb_par);
             this.Controls.Add(this.btn_cambiar_apuesta);
             this.Controls.Add(this.cmb_color);
             this.Controls.Add(this.btn_apostar);
@@ -284,5 +343,9 @@
         private System.Windows.Forms.Button btn_apostar;
         private System.Windows.Forms.ComboBox cmb_color;
         private System.Windows.Forms.Button btn_cambiar_apuesta;
+        private System.Windows.Forms.ComboBox cmb_par;
+        private System.Windows.Forms.Button btn_retirarse;
+        private System.Windows.Forms.Label lbl_apuesta;
+        private System.Windows.Forms.Label lbl_apostado;
     }
 }
