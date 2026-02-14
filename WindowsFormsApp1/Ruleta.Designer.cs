@@ -45,6 +45,11 @@
             this.btn_retirarse = new System.Windows.Forms.Button();
             this.lbl_apuesta = new System.Windows.Forms.Label();
             this.lbl_apostado = new System.Windows.Forms.Label();
+            this.txt_prueba = new System.Windows.Forms.TextBox();
+            this.txt_texto_par = new System.Windows.Forms.TextBox();
+            this.txt_color_apostado = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_pozo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -146,6 +151,7 @@
             // btn_girar
             // 
             this.btn_girar.BackColor = System.Drawing.Color.Black;
+            this.btn_girar.Enabled = false;
             this.btn_girar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_girar.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_girar.Location = new System.Drawing.Point(1785, 799);
@@ -235,6 +241,7 @@
             // btn_cambiar_apuesta
             // 
             this.btn_cambiar_apuesta.BackColor = System.Drawing.Color.Black;
+            this.btn_cambiar_apuesta.Enabled = false;
             this.btn_cambiar_apuesta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cambiar_apuesta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btn_cambiar_apuesta.Location = new System.Drawing.Point(1785, 726);
@@ -296,11 +303,61 @@
             this.lbl_apostado.Text = "-";
             this.lbl_apostado.Visible = false;
             // 
+            // txt_prueba
+            // 
+            this.txt_prueba.Location = new System.Drawing.Point(1356, 757);
+            this.txt_prueba.Name = "txt_prueba";
+            this.txt_prueba.Size = new System.Drawing.Size(100, 22);
+            this.txt_prueba.TabIndex = 23;
+            // 
+            // txt_texto_par
+            // 
+            this.txt_texto_par.Location = new System.Drawing.Point(1356, 797);
+            this.txt_texto_par.Name = "txt_texto_par";
+            this.txt_texto_par.Size = new System.Drawing.Size(100, 22);
+            this.txt_texto_par.TabIndex = 24;
+            // 
+            // txt_color_apostado
+            // 
+            this.txt_color_apostado.Location = new System.Drawing.Point(1356, 831);
+            this.txt_color_apostado.Name = "txt_color_apostado";
+            this.txt_color_apostado.Size = new System.Drawing.Size(100, 22);
+            this.txt_color_apostado.TabIndex = 25;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.Location = new System.Drawing.Point(1381, 299);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 32);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Pozo";
+            // 
+            // txt_pozo
+            // 
+            this.txt_pozo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(99)))), ((int)(((byte)(60)))));
+            this.txt_pozo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_pozo.Font = new System.Drawing.Font("Consolas", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pozo.ForeColor = System.Drawing.Color.Yellow;
+            this.txt_pozo.Location = new System.Drawing.Point(1305, 334);
+            this.txt_pozo.Name = "txt_pozo";
+            this.txt_pozo.ReadOnly = true;
+            this.txt_pozo.Size = new System.Drawing.Size(220, 32);
+            this.txt_pozo.TabIndex = 26;
+            this.txt_pozo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Ruleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(99)))), ((int)(((byte)(24)))));
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txt_pozo);
+            this.Controls.Add(this.txt_color_apostado);
+            this.Controls.Add(this.txt_texto_par);
+            this.Controls.Add(this.txt_prueba);
             this.Controls.Add(this.lbl_apostado);
             this.Controls.Add(this.lbl_apuesta);
             this.Controls.Add(this.btn_retirarse);
@@ -347,5 +404,10 @@
         private System.Windows.Forms.Button btn_retirarse;
         private System.Windows.Forms.Label lbl_apuesta;
         private System.Windows.Forms.Label lbl_apostado;
+        private System.Windows.Forms.TextBox txt_prueba;
+        private System.Windows.Forms.TextBox txt_texto_par;
+        private System.Windows.Forms.TextBox txt_color_apostado;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_pozo;
     }
 }
